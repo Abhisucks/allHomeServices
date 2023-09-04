@@ -1,0 +1,18 @@
+.a_hover:hover {
+    border-bottom: 2px solid rgb(135, 206, 235);
+    transition: 0.3s;
+    font-size: 17px
+}
+
+.btn_hover:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.9s;
+
+}
+
+.social_icons:hover {
+
+    transition: 0.3s;
+    font-size: 18px
+}

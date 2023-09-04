@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.cardbody {
+    flex: 1;
+    /* background-color: aqua; */
+}

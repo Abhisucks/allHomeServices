@@ -1,0 +1,22 @@
+.active {
+    background-color: rgb(4, 81, 140);
+
+}
+
+.contentContainer {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 2s forwards;
+}
+
+.cursurs {
+    cursor: pointer;
+    /* color: red; */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,23 @@
+/********** Template CSS **********/
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+.sidebar {
+    width: auto;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--light);
+    background-color: black;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.content {
+    margin-left: 250px;
+    min-height: 100vh;
+    background: #F3F6F9;
+    transition: 0.5s;
+}

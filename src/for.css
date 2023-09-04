@@ -1,0 +1,23 @@
+.ganu {
+    background-color: red;
+    color: aqua;
+}
+
+
+
+
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+
+.carousel-container {
+    position: relative;
+    margin-top: -25px;
+    /* Half of navbar's height */
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+}
